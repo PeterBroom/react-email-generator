@@ -14,8 +14,8 @@ export const Template: FC<{}> = ({}) => {
         <div className="email-template">
           <h1>This is a rendering of a React component</h1>
           <p>
-            This project uses React Email to convert react pages into friendly
-            email HTML.
+            This project uses React Email to convert react pages into email
+            friendly HTML.
           </p>
         </div>
       </Section>
