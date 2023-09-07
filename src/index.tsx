@@ -7,6 +7,6 @@ const root = createRoot(document.getElementById('app'));
 
 root.render(
   <StrictMode>
-    <App name="Email template" />
+    <App />
   </StrictMode>
 );

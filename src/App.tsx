@@ -8,12 +8,17 @@ const html = render(<Template />, {
   pretty: true,
 });
 
-export const App: FC<{}> = ({}) => {
+export const App: FC<{}> = ({ }) => {
   return (
     <div className="app">
+
+      <div className="output">
+        <p>This is what it would look like in an inbox:</p>
       <Template />
-      <p>Here is the output:</p>
-      {html}
+
+        <p>And this is the rendered HTML for the email:</p>
+        <pre><code>{html}</code></pre>
+      </div>
     </div>
   );
 };

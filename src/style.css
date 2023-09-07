@@ -5,16 +5,7 @@ body {
   background-color: FFFFFF;
 }
 
-h1,
-p {
-  font-family: Lato;
-}
-
-h1 {
-  color: coral;
-}
-
-.app {
+.output {
   padding: 1rem;
-  color: #666666;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
