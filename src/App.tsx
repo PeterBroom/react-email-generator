@@ -8,8 +8,6 @@ const html = render(<Template />, {
   pretty: true,
 });
 
-console.log(html);
-
 export const App: FC<{}> = ({}) => {
   return (
     <div className="app">
